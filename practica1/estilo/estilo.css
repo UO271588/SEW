@@ -1,1 +1,83 @@
 /* Datos personales: Eloy Alfredo Schmidt Rodríguez - UO271588 */
+
+/* a=0 b=0 c=1 -> Especificidad= 1*/
+html{
+    background-color: rgb(212, 212, 212);
+    color: black;
+}
+
+/* a=0 b=0 c=1 -> Especificidad= 1*/
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+/* a=0 b=0 c=1 -> Especificidad= 1*/
+header {
+    color: white;
+    background-color: orange;
+}
+
+/* a=0 b=0 c=1 -> Especificidad= 1*/
+nav{
+    color: white;
+    background-color: rgb(41, 40, 40);
+}
+
+/* a=0 b=0 c=1 -> Especificidad= 1*/
+main{
+    background-color: rgb(212, 212, 212);
+    color: black;
+}
+
+/* a=0 b=0 c=1 -> Especificidad= 1*/
+footer{
+    color: white;
+    background-color: rgb(41, 40, 40);
+}
+
+/* a=0 b=0 c=2 -> Especificidad= 2*/
+header > h1{
+    background-color: orange;
+    color: white;
+    font-size: calc(1em + 3vw);
+}
+
+/* a=0 b=0 c=2 -> Especificidad= 2*/
+nav > a{
+    color: white;
+    background-color: rgb(41, 40, 40);
+    text-decoration: none;
+    text-align: center;
+    font-size: calc(0.5em + 1vw);
+    padding: 1vh 2vw 1vh 2vw;
+    border: 1px solid grey;
+}
+
+/* a=0 b=0 c=2 -> Especificidad= 2*/
+nav > a:hover{
+    color: white;
+    background-color: grey;
+}
+
+/* a=0 b=0 c=2 -> Especificidad= 2*/
+main > section {
+    margin: 1vh 2vw 1vh 2vw;
+    font-size: calc(0.5em + 1vw);
+}
+
+/* a=0 b=0 c=3 -> Especificidad= 3*/
+main > section > video {
+    width: calc(20em + 5vw);
+}
+
+/* a=0 b=0 c=3 -> Especificidad= 3*/
+main > section > audio {
+    width: calc(22em + 5vw);
+    padding: 3vh 2vw 1vh 2vw;
+}
+
+/* a=0 b=0 c=4 -> Especificidad= 4*/
+main > section > picture > img{
+    width: calc(0.5em + 10vw);
+}
