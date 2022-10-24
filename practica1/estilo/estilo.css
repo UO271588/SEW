@@ -39,7 +39,7 @@ footer{
 /* a=0 b=0 c=2 -> Especificidad= 2*/
 header > h1{
     background-color: orange;
-    color: white;
+    color: black;
     font-size: calc(1em + 3vw);
 }
 
