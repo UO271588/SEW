@@ -1,49 +1,49 @@
 /* Datos personales: Eloy Alfredo Schmidt Rodríguez - UO271588 */
 
-/* a=0 b=0 c=1 -> Especificidad= 1*/
+/* a=0 b=0 c=1 -> Especificidad= 001*/
 html{
     background-color: rgb(212, 212, 212);
     color: black;
 }
 
-/* a=0 b=0 c=1 -> Especificidad= 1*/
+/* a=0 b=0 c=1 -> Especificidad= 001*/
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
 
-/* a=0 b=0 c=1 -> Especificidad= 1*/
+/* a=0 b=0 c=1 -> Especificidad= 001*/
 header {
     color: black;
     background-color: orange;
 }
 
-/* a=0 b=0 c=1 -> Especificidad= 1*/
+/* a=0 b=0 c=1 -> Especificidad= 001*/
 nav{
     color: white;
     background-color: rgb(41, 40, 40);
 }
 
-/* a=0 b=0 c=1 -> Especificidad= 1*/
+/* a=0 b=0 c=1 -> Especificidad= 001*/
 main{
     background-color: rgb(212, 212, 212);
     color: black;
 }
 
-/* a=0 b=0 c=1 -> Especificidad= 1*/
+/* a=0 b=0 c=1 -> Especificidad= 001*/
 footer{
     color: white;
     background-color: rgb(41, 40, 40);
 }
 
-/* a=0 b=0 c=2 -> Especificidad= 2*/
+/* a=0 b=0 c=2 -> Especificidad= 002*/
 header > h1{
     background-color: orange;
     color: black;
     font-size: calc(1em + 3vw);
 }
 
-/* a=0 b=0 c=2 -> Especificidad= 2*/
+/* a=0 b=0 c=2 -> Especificidad= 002*/
 nav > a{
     color: white;
     background-color: rgb(41, 40, 40);
@@ -54,30 +54,41 @@ nav > a{
     border: 1px solid grey;
 }
 
-/* a=0 b=0 c=2 -> Especificidad= 2*/
+/* a=0 b=0 c=2 -> Especificidad= 002*/
 nav > a:hover{
     color: white;
     background-color: grey;
 }
 
-/* a=0 b=0 c=2 -> Especificidad= 2*/
+/* a=0 b=0 c=2 -> Especificidad= 002*/
 main > section {
     margin: 1vh 2vw 1vh 2vw;
     font-size: calc(0.5em + 1vw);
 }
 
-/* a=0 b=0 c=3 -> Especificidad= 3*/
+/* a=0 b=0 c=3 -> Especificidad= 003*/
 main > section > video {
     width: calc(20em + 5vw);
 }
 
-/* a=0 b=0 c=3 -> Especificidad= 3*/
+/* a=0 b=0 c=3 -> Especificidad= 003*/
 main > section > audio {
     width: calc(22em + 5vw);
     padding: 3vh 2vw 1vh 2vw;
 }
 
-/* a=0 b=0 c=4 -> Especificidad= 4*/
+/* a=0 b=0 c=3 -> Especificidad= 003*/
+main > section > ul {
+    list-style-type: square;
+}
+
+/* a=0 b=0 c=4 -> Especificidad= 004*/
+main > section > table th, main > section > table td{
+    border: 1px solid black;
+}
+
+/* a=0 b=0 c=4 -> Especificidad= 004*/
 main > section > picture > img{
     width: calc(0.5em + 10vw);
 }
+

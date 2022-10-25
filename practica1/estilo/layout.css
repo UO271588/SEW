@@ -1,20 +1,20 @@
 /* Datos personales: Eloy Alfredo Schmidt Rodríguez - UO271588 */
 
-/* a=0 b=0 c=1 -> Especificidad= 1*/
+/* a=0 b=0 c=1 -> Especificidad= 001*/
 header {
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-/* a=0 b=0 c=1 -> Especificidad= 1*/
+/* a=0 b=0 c=1 -> Especificidad= 001*/
 nav {
     display: flex;
     align-content: center;
     justify-content: flex-start;
 }
 
-/* a=0 b=0 c=1 -> Especificidad= 1*/
+/* a=0 b=0 c=1 -> Especificidad= 001*/
 main {
     display: grid;
     grid-template-areas:
@@ -25,7 +25,7 @@ main {
 }
 
 @media(min-width: 800px){
-    /* a=0 b=0 c=1 -> Especificidad= 1*/
+    /* a=0 b=0 c=1 -> Especificidad= 001*/
     main {
         grid-template-areas:
         'section1 section2';
@@ -33,17 +33,17 @@ main {
     }
 }
 
-/* a=0 b=0 c=2 -> Especificidad= 2*/
+/* a=0 b=0 c=2 -> Especificidad= 002*/
 main > section:nth-child(1) {
     grid-area: section1
 }
 
-/* a=0 b=0 c=2 -> Especificidad= 2*/
+/* a=0 b=0 c=2 -> Especificidad= 002*/
 main > section:nth-child(2) {
     grid-area: section2
 }
 
-/* a=0 b=0 c=2 -> Especificidad= 2*/
+/* a=0 b=0 c=2 -> Especificidad= 002*/
 main>section {
     display: flex;
     flex-direction: column;
