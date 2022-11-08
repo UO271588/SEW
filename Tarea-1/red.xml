@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona xsi:schemaLocation="http://tempuri.org/persona redV1.xsd"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://tempuri.org/persona" >
+  <nombre>Eloy Alfredo</nombre>
+  <apellidos>Schmidt Rodríguez</apellidos>
+  <fechanacimiento>2000-11-09</fechanacimiento>
+  <lugarnacimiento>
+    <lugar>Oviedo</lugar>
+    <coordenadas longitud="-5.84476" latitud="43.36029" altitud="232"></coordenadas>
+  </lugarnacimiento>
+  <lugarresidencia>
+    <lugar>Sama de Langreo</lugar>
+    <coordenadas longitud="-5.68416" latitud="43.29568" altitud="214"></coordenadas>
+  </lugarresidencia>
+  <fotografias>
+    <url>
+      <![CDATA[https://uo271588.github.io/SEW/images/eloy.jpg]]>
+    </url>
+  </fotografias>
+  <videos>
+	<url><![CDATA[https://uo271588.github.io/SEW/images/videoxml.mp4]]></url>
+  </videos>
+  <comentarios>
+    <comentario>UO271588</comentario>
+  </comentarios>
+  <amigos>
+    <persona>
+      <nombre>Andrea</nombre>
+      <apellidos>Perez Santos</apellidos>
+      <fechanacimiento>1999-06-22</fechanacimiento>
+      <lugarnacimiento>
+        <lugar>Aviles</lugar>
+        <coordenadas longitud="-5.92483" latitud="43.55473" altitud="139"></coordenadas>
+      </lugarnacimiento>
+      <lugarresidencia>
+        <lugar>Noreña</lugar>
+        <coordenadas longitud="-5.70568" latitud="43.39420" altitud="522"></coordenadas>
+      </lugarresidencia>
+      <fotografias>
+        <url>
+          <![CDATA[https://randomuser.me/api/portraits/women/39.jpg]]>
+        </url>
+      </fotografias>
+      <videos>
+      </videos>
+      <comentarios>
+        <comentario></comentario>
+      </comentarios>
+      <amigos>
+        <persona>
+          <nombre>Carlos</nombre>
+          <apellidos>Menéndez Rubio</apellidos>
+          <fechanacimiento>2001-07-15</fechanacimiento>
+          <lugarnacimiento>
+            <lugar>Ribadesella</lugar>
+            <coordenadas longitud="-5.05955" latitud="43.46145" altitud="897"></coordenadas>
+          </lugarnacimiento>
+          <lugarresidencia>
+            <lugar>Llanes</lugar>
+            <coordenadas longitud="-4.75485" latitud="43.41982" altitud="1177"></coordenadas>
+          </lugarresidencia>
+          <fotografias>
+            <url>
+              <![CDATA[https://randomuser.me/api/portraits/men/43.jpg]]>
+            </url>
+          </fotografias>
+          <videos>
+          </videos>
+          <comentarios>
+            <comentario></comentario>
+          </comentarios>
+        </persona>
+        <persona>
+          <nombre>Mario</nombre>
+          <apellidos>Antuña Perez</apellidos>
+          <fechanacimiento>2000-01-29</fechanacimiento>
+          <lugarnacimiento>
+            <lugar>Navia</lugar>
+            <coordenadas longitud="-6.66208" latitud="43.54460" altitud="33"></coordenadas>
+          </lugarnacimiento>
+          <lugarresidencia>
+            <lugar>Luarca</lugar>
+            <coordenadas longitud="-6.53584" latitud="43.54394" altitud="40"></coordenadas>
+          </lugarresidencia>
+          <fotografias>
+            <url>
+              <![CDATA[https://randomuser.me/api/portraits/men/29.jpg]]>
+            </url>
+          </fotografias>
+          <videos>
+          </videos>
+          <comentarios>
+            <comentario></comentario>
+          </comentarios>
+        </persona>
+        <persona>
+          <nombre>Pablo</nombre>
+          <apellidos>Arias Fernández</apellidos>
+          <fechanacimiento>1998-12-10</fechanacimiento>
+          <lugarnacimiento>
+            <lugar>Gijon</lugar>
+            <coordenadas longitud="-5.66152" latitud="43.53573" altitud="3"></coordenadas>
+          </lugarnacimiento>
+          <lugarresidencia>
+            <lugar>Corvera</lugar>
+            <coordenadas longitud="-5.88893" latitud="43.53554" altitud="362"></coordenadas>
+          </lugarresidencia>
+          <fotografias>
+            <url>
+              <![CDATA[https://randomuser.me/api/portraits/men/20.jpg]]>
+            </url>
+          </fotografias>
+          <videos>
+          </videos>
+          <comentarios>
+            <comentario></comentario>
+          </comentarios>
+        </persona>
+      </amigos>
+    </persona>
+    <persona>
+      <nombre>Manuel</nombre>
+      <apellidos>Sanchez Hernández</apellidos>
+      <fechanacimiento>1987-05-30</fechanacimiento>
+      <lugarnacimiento>
+        <lugar>Pola de Laviana</lugar>
+        <coordenadas longitud="-5.5629" latitud="43.24538" altitud="290"></coordenadas>
+      </lugarnacimiento>
+      <lugarresidencia>
+        <lugar>Campo de Caso</lugar>
+        <coordenadas longitud="-5.34476" latitud="43.1831" altitud="574"></coordenadas>
+      </lugarresidencia>
+      <fotografias>
+        <url>
+          <![CDATA[https://randomuser.me/api/portraits/men/31.jpg]]>
+        </url>
+      </fotografias>
+      <videos>
+      </videos>
+      <comentarios>
+        <comentario></comentario>
+      </comentarios>
+      <amigos>
+        <persona>
+          <nombre>Carla</nombre>
+          <apellidos>Santos Smith</apellidos>
+          <fechanacimiento>2003-02-19</fechanacimiento>
+          <lugarnacimiento>
+            <lugar>Grandas de Salime</lugar>
+            <coordenadas longitud="-6.8757" latitud="43.21554" altitud="562"></coordenadas>
+          </lugarnacimiento>
+          <lugarresidencia>
+            <lugar>Taramundi</lugar>
+            <coordenadas longitud="-7.10828" latitud="43.3602" altitud="260"></coordenadas>
+          </lugarresidencia>
+          <fotografias>
+            <url>
+              <![CDATA[https://randomuser.me/api/portraits/women/10.jpg]]>
+            </url>
+          </fotografias>
+          <videos>
+          </videos>
+          <comentarios>
+            <comentario></comentario>
+          </comentarios>
+        </persona>
+        <persona>
+          <nombre>Sandra</nombre>
+          <apellidos>Martin Suarez</apellidos>
+          <fechanacimiento>2000-06-24</fechanacimiento>
+          <lugarnacimiento>
+            <lugar>Vegadeo</lugar>
+            <coordenadas longitud="-7.0539" latitud="43.46834" altitud="4"></coordenadas>
+          </lugarnacimiento>
+          <lugarresidencia>
+            <lugar>Cangas del Narcea</lugar>
+            <coordenadas longitud="-6.55" latitud="43.18333" altitud="376"></coordenadas>
+          </lugarresidencia>
+          <fotografias>
+            <url>
+              <![CDATA[https://randomuser.me/api/portraits/women/5.jpg]]>
+            </url>
+          </fotografias>
+          <videos>
+          </videos>
+          <comentarios>
+            <comentario></comentario>
+          </comentarios>
+        </persona>
+        <persona>
+          <nombre>Sandor</nombre>
+          <apellidos>Martínez Calvo</apellidos>
+          <fechanacimiento>1990-08-01</fechanacimiento>
+          <lugarnacimiento>
+            <lugar>Cangas de Onis</lugar>
+            <coordenadas longitud="-5.12916" latitud="43.3514" altitud="87"></coordenadas>
+          </lugarnacimiento>
+          <lugarresidencia>
+            <lugar>Villaviciosa</lugar>
+            <coordenadas longitud="-5.43574" latitud="43.48126" altitud="662"></coordenadas>
+          </lugarresidencia>
+          <fotografias>
+            <url>
+              <![CDATA[https://randomuser.me/api/portraits/men/15.jpg]]>
+            </url>
+          </fotografias>
+          <videos>
+          </videos>
+          <comentarios>
+            <comentario></comentario>
+          </comentarios>
+        </persona>
+      </amigos>
+    </persona>
+    <persona>
+      <nombre>Isabel</nombre>
+      <apellidos>Sanchez Zapico</apellidos>
+      <fechanacimiento>2002-03-21</fechanacimiento>
+      <lugarnacimiento>
+        <lugar>Tineo</lugar>
+        <coordenadas longitud="-6.41452" latitud="43.33765" altitud="652"></coordenadas>
+      </lugarnacimiento>
+      <lugarresidencia>
+        <lugar>Salas</lugar>
+        <coordenadas longitud="-6.26023" latitud="43.4118" altitud="240"></coordenadas>
+      </lugarresidencia>
+      <fotografias>
+        <url>
+          <![CDATA[https://randomuser.me/api/portraits/women/35.jpg]]>
+        </url>
+      </fotografias>
+      <videos>
+      </videos>
+      <comentarios>
+        <comentario></comentario>
+      </comentarios>
+      <amigos>
+        <persona>
+          <nombre>Pedro</nombre>
+          <apellidos>Rubio Perez</apellidos>
+          <fechanacimiento>1953-04-20</fechanacimiento>
+          <lugarnacimiento>
+            <lugar>Pravia</lugar>
+            <coordenadas longitud="-6.1117" latitud="43.48861" altitud="260"></coordenadas>
+          </lugarnacimiento>
+          <lugarresidencia>
+            <lugar>Grado</lugar>
+            <coordenadas longitud="-6.07433" latitud="43.38801" altitud="900"></coordenadas>
+          </lugarresidencia>
+          <fotografias>
+            <url>
+              <![CDATA[https://randomuser.me/api/portraits/men/26.jpg]]>
+            </url>
+          </fotografias>
+          <videos>
+          </videos>
+          <comentarios>
+            <comentario></comentario>
+          </comentarios>
+        </persona>
+        <persona>
+          <nombre>Carlos</nombre>
+          <apellidos>Martin Suarez</apellidos>
+          <fechanacimiento>1987-10-18</fechanacimiento>
+          <lugarnacimiento>
+            <lugar>Navelgas</lugar>
+            <coordenadas longitud="-6.552" latitud="43.4051" altitud="240"></coordenadas>
+          </lugarnacimiento>
+          <lugarresidencia>
+            <lugar>Pola de Allande</lugar>
+            <coordenadas longitud="-6.62152" latitud="43.27307" altitud="524"></coordenadas>
+          </lugarresidencia>
+          <fotografias>
+            <url>
+              <![CDATA[https://randomuser.me/api/portraits/men/47.jpg]]>
+            </url>
+          </fotografias>
+          <videos>
+          </videos>
+          <comentarios>
+            <comentario></comentario>
+          </comentarios>
+        </persona>
+        <persona>
+          <nombre>Patricia</nombre>
+          <apellidos>Cuevas Santos</apellidos>
+          <fechanacimiento>2007-06-15</fechanacimiento>
+          <lugarnacimiento>
+            <lugar>Trubia</lugar>
+            <coordenadas longitud="-5.974902" latitud="43.343895" altitud="100"></coordenadas>
+          </lugarnacimiento>
+          <lugarresidencia>
+            <lugar>Cudillero</lugar>
+            <coordenadas longitud="-6.14589" latitud="43.56217" altitud="785"></coordenadas>
+          </lugarresidencia>
+          <fotografias>
+            <url>
+              <![CDATA[https://randomuser.me/api/portraits/women/42.jpg]]>
+            </url>
+          </fotografias>
+          <videos>
+          </videos>
+          <comentarios>
+            <comentario></comentario>
+          </comentarios>
+        </persona>
+      </amigos>
+    </persona>
+  </amigos>
+</persona>

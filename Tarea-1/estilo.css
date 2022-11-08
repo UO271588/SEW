@@ -1,0 +1,15 @@
+section{
+    background-color: dimgrey;
+    margin: 2vw;
+    padding: 2vw;
+    color:white;
+   
+}
+
+img{
+    width: calc(4em + 10vw);
+}
+
+video{
+    width:50vw;
+}
