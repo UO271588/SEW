@@ -1,0 +1,75 @@
+html{
+    color:black;
+    background-color: grey;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1vw;
+    padding: 1vw;
+    margin:auto;
+    color: black;
+    background-color: #0BB8D4;
+    border-radius: 0.5vw;
+    border: 2px solid black;
+}
+
+h1{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    margin:0vw;
+    font-size: calc(0.6em + 1vw);
+}
+
+input[type="text"]{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    color:black;
+    background-color: white;
+    font-size: calc(1em + 1vw);
+    padding: .5vw;
+    text-align: right;
+}
+
+input[type="button"]{
+    color:black;
+    background-color: #09AD6C;
+    border-radius: 0.5vw;
+    padding:1vw;
+}
+
+input[type="button"]:nth-child(20){
+    grid-column-start: 4;
+    grid-column-end:5;
+    grid-row-start:5;
+    grid-row-end:7;
+}
+
+input[type="button"]:nth-child(7),
+input[type="button"]:nth-child(8),
+input[type="button"]:nth-child(9),
+input[type="button"]:nth-child(12),
+input[type="button"]:nth-child(13),
+input[type="button"]:nth-child(14),
+input[type="button"]:nth-child(17),
+input[type="button"]:nth-child(18),
+input[type="button"]:nth-child(19),
+input[type="button"]:nth-child(22),
+input[type="button"]:nth-child(23),
+input[type="button"]:nth-child(24) {
+    background-color: white;
+    color:black;
+}
+
+input[type="button"]:hover{
+    background-color:rgb(65, 65, 65);
+    color:white;
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<title> UO271588-Ejercicio6-JS</title>
+	<meta name="author" content="Eloy Alfredo Schmidt Rodríguez" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="viewport" content="width=device-width, intial-scale=1.0" />
+	<link rel="stylesheet" href="CalculadoraEspecifica.css" />
+	<script src="CalculadoraEspecifica.js"></script>
+</head>
+
+<body>
+	<section>
+		<h1>Calculadora Energética</h1>
+		<label>v1.0.0</label>
+		<textarea id="pila" name="pila"></textarea>
+
+		<input type="text" value="0">
+
+		<input type="button" name="borrar anterior" value="DEL" onclick="calc.delete()" />
+
+		<input type="button" name="unidades medida" value="KW" onclick="calc.cambioUnidad()" />
+
+		<input type="button" name="unidades medida" value="SUMF" onclick="calc.sumaEnergiasTotalFabrica()" />
+		<input type="button" name="unidades medida" value="SUMC" onclick="calc.sumaEnergiasTotalCasa()" />
+		<input type="button" name="unidades medida" value="PE"
+			onclick="calc.anadirPerdidasEnergiaElectrodomesticos()" />
+		<input type="button" name="unidades medida" value="PV" onclick="calc.anadirPerdidasEnergiaVentanas()" />
+
+		<input type="button" name="7" value=" 7 " onclick="calc.numero(7)" />
+		<input type="button" name="8" value=" 8 " onclick="calc.numero(8)" />
+		<input type="button" name="9" value=" 9 " onclick="calc.numero(9)" />
+		<input type="button" name="dividir" value=" / " onclick="calc.division()" />
+
+		<input type="button" name="4" value=" 4 " onclick="calc.numero(4)" />
+		<input type="button" name="5" value=" 5 " onclick="calc.numero(5)" />
+		<input type="button" name="6" value=" 6 " onclick="calc.numero(6)" />
+		<input type="button" name="multiplicar" value=" x " onclick="calc.multiplicacion()" />
+
+		<input type="button" name="1" value=" 1 " onclick="calc.numero(1)" />
+		<input type="button" name="2" value=" 2 " onclick="calc.numero(2)" />
+		<input type="button" name="3" value=" 3 " onclick="calc.numero(3)" />
+		<input type="button" name="restar" value=" - " onclick="calc.resta()" />
+
+		<input type="button" name="limpiar pantalla" value=" C " onclick="calc.borrar()" />
+		<input type="button" name="0" value=" 0 " onclick="calc.numero(0)" />
+		<input type="button" name="punto decimal" value=" . " onclick="calc.punto()" />
+		<input type="button" name="sumar" value=" + " onclick="calc.suma()" />
+
+		<input type="button" name="enter" value="Enter" onclick="calc.enter()" />
+
+	</section>
+</body>
+</html>

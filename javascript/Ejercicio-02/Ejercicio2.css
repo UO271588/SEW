@@ -1,0 +1,20 @@
+h1{
+    color: black;
+    background-color: lightblue;
+    font-size:1.2rem;
+    padding:1vw;
+}
+
+h2{
+    color: black;
+    background-color: antiquewhite;
+    font-size:1em;
+    padding:1vw;
+}
+
+p{
+    color: black;
+    background-color: antiquewhite;
+    font-size:1em;
+    padding:1vw;
+}

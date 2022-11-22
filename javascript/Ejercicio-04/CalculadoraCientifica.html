@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title> UO271588-Ejercicio4-JS</title>
+        <meta name="author" content="Eloy Alfredo Schmidt Rodríguez"/>
+        <meta name="description" content=""/>
+        <meta name="keywords" content=""/>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css"/>
+        <script src="./CalculadoraCientifica.js"></script>
+    </head>
+    <body>
+        <section>
+            <h1>Calculadora Cientifica</h1>
+            <input type="text" value="0" maxlength="8" disabled readonly>
+            <!--Fila de cambio de tipos numericos-->
+            <input type="button" value="DEG" onclick="calc.cambioTipo()">
+            
+            <!--Primera fila-->
+            <input type="button" value="MC" onclick="calc.mc()"> <!--Está-->
+            <input type="button" value="MR" onclick="calc.mr()"> <!--Está-->
+            <input type="button" value="M+" onclick="calc.mMas()"> <!--Está-->
+            <input type="button" value="M-" onclick="calc.mMenos()"> <!--Está-->
+            <input type="button" value="MS" onclick="calc.ms()"> <!--Está-->
+
+            <!--Segunda fila-->
+            <input type="button" value="x²" onclick="calc.cuadrado()"> <!--Está-->
+            <input type="button" value="xʸ" onclick="calc.elevado()"> <!--Está-->
+            <input type="button" value="sin" onclick="calc.sin()"> <!--Está-->
+            <input type="button" value="cos" onclick="calc.cos()"> <!--Está-->
+            <input type="button" value="tan" onclick="calc.tan()"> <!--Está-->
+
+            <!--Tercera fila-->
+            <input type="button" value="√" onclick="calc.raiz()"> <!--Está-->
+            <input type="button" value="10ˣ" onclick="calc.exponentedecimal()"> 
+            <input type="button" value="log" onclick="calc.logaritmo()"> <!--Está-->
+            <input type="button" value="exp" onclick="calc.exponente()"> <!--Está-->
+            <input type="button" value="mod" onclick="calc.mod()"> <!--Está-->
+
+            <!--Cuarta fila-->
+            <input type="button" value="⇧" onclick="calc.up()"> <!--Está-->
+            <input type="button" value="CE" onclick="calc.borrarPantalla()">
+            <input type="button" value="C" onclick="calc.borrar()">
+            <input type="button" value="⇦" onclick="calc.remove()">
+            <input type="button" value="/" onclick="calc.division()"> <!--Está-->
+
+            <!--Quinta fila-->
+            <input type="button" value="π" onclick="calc.pi()"> <!--Está-->
+            <input type="button" value="7" onclick="calc.digitos(7)"> <!--Está-->
+            <input type="button" value="8" onclick="calc.digitos(8)"> <!--Está-->
+            <input type="button" value="9" onclick="calc.digitos(9)"> <!--Está-->
+            <input type="button" value="x" onclick="calc.multiplicacion()"> <!--Está-->
+
+            <!--Sexta fila-->
+            <input type="button" value="n!" onclick="calc.factorial()"> <!--Está-->
+            <input type="button" value="4" onclick="calc.digitos(4)"> <!--Está-->
+            <input type="button" value="5" onclick="calc.digitos(5)"> <!--Está-->
+            <input type="button" value="6" onclick="calc.digitos(6)"> <!--Está-->
+            <input type="button" value="-" onclick="calc.resta()"> <!--Está-->
+
+            <!--Septima fila-->
+            <input type="button" value="+/-" onclick="calc.mas_menos()"> <!--Está-->
+            <input type="button" value="1" onclick="calc.digitos(1)"> <!--Está-->
+            <input type="button" value="2" onclick="calc.digitos(2)"> <!--Está-->
+            <input type="button" value="3" onclick="calc.digitos(3)"> <!--Está-->
+            <input type="button" value="+" onclick="calc.suma()"> <!--Está-->
+
+            <!--Octava fila-->
+            <input type="button" value="(" onclick="calc.openParent()"> <!--Está-->
+            <input type="button" value=")" onclick="calc.closeParent()"> <!--Está-->
+            <input type="button" value="0" onclick="calc.digitos(0)"> <!--Está-->
+            <input type="button" value="." onclick="calc.punto()"> <!--Está-->
+            <input type="button" value="=" onclick="calc.igual()"> <!--Está-->
+        </section>
+    </body>
+</html>

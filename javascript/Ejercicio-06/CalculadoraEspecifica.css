@@ -1,0 +1,127 @@
+html{
+    color: black;
+    background-color: rgb(204, 204, 204);
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1vw;
+    padding: 1vw;
+    margin:auto;
+    color:black;
+    background-color: grey;
+    border: 2px solid black;
+}
+
+h1{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    margin:0vw;
+    font-size: calc(0.6em + 1vw);
+}
+
+label{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+textarea{
+	grid-column-start: 1;
+    grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 6;
+	height:20vh;
+	text-align: right;
+	resize:none;
+	font-size: calc(1em + 1vw);
+}
+
+input[type="text"]{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    color:black;
+    background-color: white;
+    font-size: calc(1em + 1vw);
+    padding: .5vw;
+    text-align: right;
+}
+
+input[type="button"]{
+    background-color: rgb(223, 223, 223);
+    color:black;
+    border-radius: 0.5vw;
+    padding:1vw;
+}
+
+input[type="button"]:hover{
+    background-color:rgb(65, 65, 65);
+    color:white;
+}
+
+input:disabled:hover{
+    background-color: rgb(223, 223, 223);
+    color:black;
+}
+
+input[type="button"]:nth-child(5){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 7;
+}
+
+input[type="button"]:nth-child(6){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 7;
+}
+
+input[type="button"]:nth-child(7),
+input[type="button"]:nth-child(8),
+input[type="button"]:nth-child(9),
+input[type="button"]:nth-child(10){
+    grid-row-start: 8;
+}
+
+input[type="button"]:nth-child(11),
+input[type="button"]:nth-child(12),
+input[type="button"]:nth-child(13),
+input[type="button"]:nth-child(14){
+    grid-row-start: 9;
+}
+
+input[type="button"]:nth-child(15),
+input[type="button"]:nth-child(16),
+input[type="button"]:nth-child(17),
+input[type="button"]:nth-child(18){
+    grid-row-start: 10;
+}
+
+input[type="button"]:nth-child(19),
+input[type="button"]:nth-child(20),
+input[type="button"]:nth-child(21),
+input[type="button"]:nth-child(22){
+    grid-row-start: 11;
+}
+
+input[type="button"]:nth-child(23),
+input[type="button"]:nth-child(24),
+input[type="button"]:nth-child(25),
+input[type="button"]:nth-child(26){
+    grid-row-start: 12;
+}
+
+input[type="button"]:nth-child(27),
+input[type="button"]:nth-child(28),
+input[type="button"]:nth-child(29),
+input[type="button"]:nth-child(30){
+    grid-row-start: 13;
+}
+
+
