@@ -15,9 +15,10 @@
 	<section>
 		<h1>Calculadora RPN</h1>
 		<label for="pila">v.1.0.0</label>
+		<label for="input">RPN</label>
 		<textarea id="pila" name="pila" readonly></textarea>
 
-		<input type="text" value="0">
+		<input id="input" name="input" type="text" value="0">
 
 		<input type="button" name="borrar anterior" value="DEL" onclick="calc.delete()" />
 		<input type="button" name="cambio grados" value="DEG" onclick="calc.grados()" />
@@ -57,7 +58,6 @@
 		<input type="button" name="0" value=" 0 " onclick="calc.numero(0)" />
 		<input type="button" name="punto decimal" value=" . " onclick="calc.punto()" />
 		<input type="button" name="enter" value="Enter" onclick="calc.enter()" />
-
 	</section>
 </body>
 </html>

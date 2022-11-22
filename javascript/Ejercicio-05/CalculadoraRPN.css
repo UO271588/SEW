@@ -27,8 +27,12 @@ h1{
     font-size: calc(0.6em + 1vw);
 }
 
-label{
+label:nth-child(0){
     grid-column-start: 1;
+    grid-column-end: 3;
+}
+label:nth-child(1){
+    grid-column-start: 2;
     grid-column-end: 6;
 }
 
@@ -76,56 +80,56 @@ input[type="button"]:nth-child(5){
     grid-row-start: 7;
 }
 
-input[type="button"]:nth-child(7),
 input[type="button"]:nth-child(8),
 input[type="button"]:nth-child(9),
 input[type="button"]:nth-child(10),
-input[type="button"]:nth-child(11){
+input[type="button"]:nth-child(11),
+input[type="button"]:nth-child(12){
     grid-row-start: 9;
 }
 
-input[type="button"]:nth-child(12),
 input[type="button"]:nth-child(13),
 input[type="button"]:nth-child(14),
 input[type="button"]:nth-child(15),
-input[type="button"]:nth-child(16){
+input[type="button"]:nth-child(16),
+input[type="button"]:nth-child(17){
     grid-row-start: 10;
 }
 
-input[type="button"]:nth-child(17),
 input[type="button"]:nth-child(18),
 input[type="button"]:nth-child(19),
 input[type="button"]:nth-child(20),
-input[type="button"]:nth-child(21){
+input[type="button"]:nth-child(21),
+input[type="button"]:nth-child(22){
     grid-row-start: 11;
 }
 
-input[type="button"]:nth-child(22),
 input[type="button"]:nth-child(23),
 input[type="button"]:nth-child(24),
 input[type="button"]:nth-child(25),
-input[type="button"]:nth-child(26){
+input[type="button"]:nth-child(26),
+input[type="button"]:nth-child(27){
     grid-row-start: 12;
 }
 
-input[type="button"]:nth-child(27),
 input[type="button"]:nth-child(28),
 input[type="button"]:nth-child(29),
 input[type="button"]:nth-child(30),
-input[type="button"]:nth-child(31){
+input[type="button"]:nth-child(31),
+input[type="button"]:nth-child(32){
     grid-row-start: 13;
 }
 
-input[type="button"]:nth-child(32),
 input[type="button"]:nth-child(33),
 input[type="button"]:nth-child(34),
 input[type="button"]:nth-child(35),
-input[type="button"]:nth-child(36){
+input[type="button"]:nth-child(36),
+input[type="button"]:nth-child(37){
     grid-row-start: 14;
 }
 
-input[type="button"]:nth-child(36){
+input[type="button"]:nth-child(37){
     color: black;
-	background-color:brown;
+	background-color:#E59A9A;
 }
 
