@@ -24,10 +24,9 @@ class CargaArchivos {
                 nombreContenido.innerText = "Contenido del archivo de texto: ";
                 document.getElementsByTagName("section")[0].appendChild(nombreContenido);
 
-                console.log(lector.result);
                 for(let elem in lector.result.split(/[\n\r]/)){
                     if(lector.result.split(/[\n\r]/)[elem] != ""){
-                        var contenido= document.createElement("pre");
+                        var contenido= document.createElement("p");
                         contenido.innerText= lector.result.split(/[\n\r]/)[elem];
     
                         document.getElementsByTagName("section")[0].appendChild(contenido);

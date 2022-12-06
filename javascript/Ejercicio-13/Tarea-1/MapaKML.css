@@ -5,10 +5,10 @@ body {
     padding: 5vw;
 }
 
-/* Especificidad=1  a=0 b=0 c=1*/
-pre {
-    overflow: auto;
-    padding: 2vw;
+/* Especificidad=11  a=0 b=1 c=1*/
+section:nth-child(2) {
+    width: auto;
+    height: 50vh;
 }
 
 /* Especificidad=11  a=0 b=1 c=1*/
@@ -16,7 +16,7 @@ section:nth-child(3) {
     margin: 1vw;
     width: auto;
     height: 40vh;
-    overflow: hidden;
+    overflow: auto;
     float: left;
     border: thin solid #333;
 }

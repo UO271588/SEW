@@ -6,11 +6,7 @@ body {
 }
 
 /* Especificidad=11  a=0 b=1 c=1*/
-section:nth-child(3) {
-       margin: 1vw;
+section:nth-child(2) {
        width: auto;
-       height: 40vh;
-       overflow: hidden;
-       float: left;
-       border: thin solid #333;
+       height: 50vh;
 }
