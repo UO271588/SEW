@@ -1,0 +1,317 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.84476,43.36029]
+      },
+      "properties": {
+        "name": "Oviedo",
+        "usuario": "Eloy Alfredo Schmidt Rodríguez",
+        "lugar": "Nacimiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.68416,43.29568]
+      },
+      "properties": {
+        "name": "Sama de Langreo",
+        "usuario": "Eloy Alfredo Schmidt Rodríguez",
+        "lugar": "Residencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.92483,43.55473]
+      },
+      "properties": {
+        "name": "Aviles",
+        "usuario": "Andrea Perez Santos",
+        "lugar": "Nacimiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.70568,43.39420]
+      },
+      "properties": {
+        "name": "Noreña",
+        "usuario": "Andrea Perez Santos",
+        "lugar": "Residencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.05955,43.46145]
+      },
+      "properties": {
+        "name": "Ribadesella",
+        "usuario": "Carlos Menéndez Rubio",
+        "lugar": "Nacimiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.75485,43.41982]
+      },
+      "properties": {
+        "name": "LLanes",
+        "usuario": "Carlos Menéndez Rubio",
+        "lugar": "Residencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.66208,43.54460]
+      },
+      "properties": {
+        "name": "Navia",
+        "usuario": "Mario Antuña Perez",
+        "lugar": "Nacimiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.53584,43.54394]
+      },
+      "properties": {
+        "name": "Luarca",
+        "usuario": "Mario Antuña Perez",
+        "lugar": "Residencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.66152,43.53573]
+      },
+      "properties": {
+        "name": "Gijon",
+        "usuario": "Pablo Arias Fernández",
+        "lugar": "Nacimiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.88893,43.53554]
+      },
+      "properties": {
+        "name": "Corvera",
+        "usuario": "Pablo Arias Fernández",
+        "lugar": "Residencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.5629,43.24538]
+      },
+      "properties": {
+        "name": "Pola de Laviana",
+        "usuario": "Manuel Sanchez Hernández",
+        "lugar": "Nacimiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.34476,43.1831]
+      },
+      "properties": {
+        "name": "Campo de Caso",
+        "usuario": "Manuel Sanchez Hernández",
+        "lugar": "Residencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.8757,43.21554]
+      },
+      "properties": {
+        "name": "Grandas de Salime",
+        "usuario": "Carla Santos Smith",
+        "lugar": "Nacimiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.10828,43.3602]
+      },
+      "properties": {
+        "name": "Taramundi",
+        "usuario": "Carla Santos Smith",
+        "lugar": "Residencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.0539,43.46834]
+      },
+      "properties": {
+        "name": "Vegadeo",
+        "usuario": "Sandra Martin Suarez",
+        "lugar": "Nacimiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.55,43.18333]
+      },
+      "properties": {
+        "name": "Cangas del Narcea",
+        "usuario": "Sandra Martin Suarez",
+        "lugar": "Residencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.12916,43.3514]
+      },
+      "properties": {
+        "name": "Cangas de Onis",
+        "usuario": "Sandor Martínez Calvo",
+        "lugar": "Nacimiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.43574,43.48126]
+      },
+      "properties": {
+        "name": "Villaviciosa",
+        "usuario": "Sandor Martínez Calvo",
+        "lugar": "Residencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.41452,43.33765]
+      },
+      "properties": {
+        "name": "Tineo",
+        "usuario": "Isabel Sanchez Zapico",
+        "lugar": "Nacimiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.26023,43.4118]
+      },
+      "properties": {
+        "name": "Salas",
+        "usuario": "Isabel Sanchez Zapico",
+        "lugar": "Residencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.1117,43.48861]
+      },
+      "properties": {
+        "name": "Pravia",
+        "usuario": "Pedro Rubio Perez",
+        "lugar": "Nacimiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.07433,43.38801]
+      },
+      "properties": {
+        "name": "Grado",
+        "usuario": "Pedro Rubio Perez",
+        "lugar": "Residencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.552,43.4051]
+      },
+      "properties": {
+        "name": "Navelgas",
+        "usuario": "Carlos Martin Suarez",
+        "lugar": "Nacimiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.62152,43.27307]
+      },
+      "properties": {
+        "name": "Pola de Allande",
+        "usuario": "Carlos Martin Suarez",
+        "lugar": "Residencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.974902,43.343895]
+      },
+      "properties": {
+        "name": "Trubia",
+        "usuario": "Patricia Cuevas Santos",
+        "lugar": "Nacimiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.14589,43.56217]
+      },
+      "properties": {
+        "name": "Cudillero",
+        "usuario": "Patricia Cuevas Santos",
+        "lugar": "Residencia"
+      }
+    }
+  ]
+}

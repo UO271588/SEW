@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<gx:CascadingStyle kml:id="style_n_highlight">
+	<Style>
+		<IconStyle>
+			<Icon>
+				<scale>1.2</scale>
+				<href>https://earth.google.com/earth/rpc/cc/icon?color=d32f2f&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<LineStyle>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+		</PolyStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="style_n_normal">
+	<Style>
+		<IconStyle>
+			<Icon>
+				<href>https://earth.google.com/earth/rpc/cc/icon?color=d32f2f&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<LineStyle>
+		</LineStyle>
+		<PolyStyle>
+		</PolyStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="style_r_highlight">
+	<Style>
+		<IconStyle>
+			<Icon>
+				<scale>1.2</scale>
+				<href>https://earth.google.com/earth/rpc/cc/icon?color=f57a00&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<LineStyle>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+		</PolyStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="style_r_normal">
+	<Style>
+		<IconStyle>
+			<Icon>
+				<href>https://earth.google.com/earth/rpc/cc/icon?color=f57a00&amp;id=2000&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<LineStyle>
+		</LineStyle>
+		<PolyStyle>
+		</PolyStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="style_n">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_n_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_n_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="style_r">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style_r_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style_r_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Oviedo</name>
+		<description>LUGAR DE NACIMIENTO 
+Usuario: Eloy Alfredo Schmidt Rodríguez</description>
+		<styleUrl>#style_n</styleUrl>
+		<Point>
+			<coordinates>-5.84476,43.36029,232</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sama de Langreo</name>
+		<description>LUGAR DE RESIDENCIA 
+Usuario: Eloy Alfredo Schmidt Rodríguez</description>
+		<styleUrl>#style_r</styleUrl>
+		<Point>
+			<coordinates>-5.68416,43.29568,214</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Aviles</name>
+		<description>LUGAR DE NACIMIENTO 
+Usuario: Andrea Perez Santos</description>
+		<styleUrl>#style_n</styleUrl>
+		<Point>
+			<coordinates>-5.92483,43.55473,139</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Noreña</name>
+		<description>LUGAR DE RESIDENCIA 
+Usuario: Andrea Perez Santos</description>
+		<styleUrl>#style_r</styleUrl>
+		<Point>
+			<coordinates>-5.70568,43.39420,522</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ribadesella</name>
+		<description>LUGAR DE NACIMIENTO 
+Usuario: Carlos Menéndez Rubio</description>
+		<styleUrl>#style_n</styleUrl>
+		<Point>
+			<coordinates>-5.05955,43.46145,897</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Llanes</name>
+		<description>LUGAR DE RESIDENCIA 
+Usuario: Carlos Menéndez Rubio</description>
+		<styleUrl>#style_r</styleUrl>
+		<Point>
+			<coordinates>-4.75485,43.41982,1177</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Navia</name>
+		<description>LUGAR DE NACIMIENTO 
+Usuario: Mario Antuña Perez</description>
+		<styleUrl>#style_n</styleUrl>
+		<Point>
+			<coordinates>-6.66208,43.54460,33</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Luarca</name>
+		<description>LUGAR DE RESIDENCIA 
+Usuario: Mario Antuña Perez</description>
+		<styleUrl>#style_r</styleUrl>
+		<Point>
+			<coordinates>-6.53584,43.54394,40</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gijon</name>
+		<description>LUGAR DE NACIMIENTO 
+Usuario: Pablo Arias Fernández</description>
+		<styleUrl>#style_n</styleUrl>
+		<Point>
+			<coordinates>-5.66152,43.53573,3</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Corvera</name>
+		<description>LUGAR DE RESIDENCIA 
+Usuario: Pablo Arias Fernández</description>
+		<styleUrl>#style_r</styleUrl>
+		<Point>
+			<coordinates>-5.88893,43.53554,362</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pola de Laviana</name>
+		<description>LUGAR DE NACIMIENTO 
+Usuario: Manuel Sanchez Hernández</description>
+		<styleUrl>#style_n</styleUrl>
+		<Point>
+			<coordinates>-5.5629,43.24538,290</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Campo de Caso</name>
+		<description>LUGAR DE RESIDENCIA 
+Usuario: Manuel Sanchez Hernández</description>
+		<styleUrl>#style_r</styleUrl>
+		<Point>
+			<coordinates>-5.34476,43.1831,574</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Grandas de Salime</name>
+		<description>LUGAR DE NACIMIENTO 
+Usuario: Carla Santos Smith</description>
+		<styleUrl>#style_n</styleUrl>
+		<Point>
+			<coordinates>-6.8757,43.21554,562</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Taramundi</name>
+		<description>LUGAR DE RESIDENCIA 
+Usuario: Carla Santos Smith</description>
+		<styleUrl>#style_r</styleUrl>
+		<Point>
+			<coordinates>-7.10828,43.3602,260</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Vegadeo</name>
+		<description>LUGAR DE NACIMIENTO 
+Usuario: Sandra Martin Suarez</description>
+		<styleUrl>#style_n</styleUrl>
+		<Point>
+			<coordinates>-7.0539,43.46834,4</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cangas del Narcea</name>
+		<description>LUGAR DE RESIDENCIA 
+Usuario: Sandra Martin Suarez</description>
+		<styleUrl>#style_r</styleUrl>
+		<Point>
+			<coordinates>-6.55,43.18333,376</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cangas de Onis</name>
+		<description>LUGAR DE NACIMIENTO 
+Usuario: Sandor Martínez Calvo</description>
+		<styleUrl>#style_n</styleUrl>
+		<Point>
+			<coordinates>-5.12916,43.3514,87</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Villaviciosa</name>
+		<description>LUGAR DE RESIDENCIA 
+Usuario: Sandor Martínez Calvo</description>
+		<styleUrl>#style_r</styleUrl>
+		<Point>
+			<coordinates>-5.43574,43.48126,662</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tineo</name>
+		<description>LUGAR DE NACIMIENTO 
+Usuario: Isabel Sanchez Zapico</description>
+		<styleUrl>#style_n</styleUrl>
+		<Point>
+			<coordinates>-6.41452,43.33765,652</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Salas</name>
+		<description>LUGAR DE RESIDENCIA 
+Usuario: Isabel Sanchez Zapico</description>
+		<styleUrl>#style_r</styleUrl>
+		<Point>
+			<coordinates>-6.26023,43.4118,240</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pravia</name>
+		<description>LUGAR DE NACIMIENTO 
+Usuario: Pedro Rubio Perez</description>
+		<styleUrl>#style_n</styleUrl>
+		<Point>
+			<coordinates>-6.1117,43.48861,260</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Grado</name>
+		<description>LUGAR DE RESIDENCIA 
+Usuario: Pedro Rubio Perez</description>
+		<styleUrl>#style_r</styleUrl>
+		<Point>
+			<coordinates>-6.07433,43.38801,900</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Navelgas</name>
+		<description>LUGAR DE NACIMIENTO 
+Usuario: Carlos Martin Suarez</description>
+		<styleUrl>#style_n</styleUrl>
+		<Point>
+			<coordinates>-6.552,43.4051,240</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pola de Allande</name>
+		<description>LUGAR DE RESIDENCIA 
+Usuario: Carlos Martin Suarez</description>
+		<styleUrl>#style_r</styleUrl>
+		<Point>
+			<coordinates>-6.62152,43.27307,524</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Trubia</name>
+		<description>LUGAR DE NACIMIENTO 
+Usuario: Patricia Cuevas Santos</description>
+		<styleUrl>#style_n</styleUrl>
+		<Point>
+			<coordinates>-5.974902,43.343895,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cudillero</name>
+		<description>LUGAR DE RESIDENCIA 
+Usuario: Patricia Cuevas Santos</description>
+		<styleUrl>#style_r</styleUrl>
+		<Point>
+			<coordinates>-6.14589,43.56217,785</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

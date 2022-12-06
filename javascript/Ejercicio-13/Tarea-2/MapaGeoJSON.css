@@ -1,0 +1,14 @@
+body {
+       display: flex;
+       flex-direction: column;
+       padding: 5vw;
+}
+
+section:nth-child(3) {
+       margin: 1vw;
+       width: auto;
+       height: 40vh;
+       overflow: hidden;
+       float: left;
+       border: thin solid #333;
+}

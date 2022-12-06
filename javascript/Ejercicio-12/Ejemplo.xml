@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rutas xsi:schemaLocation="http://tempuri.org/rutas rutas.xsd"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://tempuri.org/rutas">
+	<ruta nombre = "Taramundi-Oviedo"> 
+		<tipo>Paisajistica</tipo>
+		<dificultad>Facil</dificultad>
+		<fecha> 
+			<inicio dia = "20" mes = "5" ano = "2018"/>
+			<hora hora = "11" minuto = "30" segundo = "45"/>
+		</fecha>
+		<tiempoduracion dias = "0" horas = "7" mins = "0"/>
+		<agencia>Rutas S.A.</agencia>
+		<descripcion>Ruta en autocaravana desde Taramundi a Oviedo</descripcion>
+		<personasadecuadas>Sin Limite</personasadecuadas>
+		<lugarinicio>Taramundi</lugarinicio>
+		<direccioninicio>Plaza Ayuntamiento</direccioninicio>
+		<referencias>
+			<referencia num = "1" value = "https://wikipedia.com/"/>
+			<referencia num = "2" value = "https://wikipedia.com/"/>
+			<referencia num = "3" value = "https://wikipedia.com/"/>
+		</referencias>
+		<recomendacion>7</recomendacion>
+		<coordenadas>
+			<longitud>-7.10694</longitud>
+			<latitud>43.35972</latitud>
+			<altitud>1033</altitud>
+		</coordenadas>
+		<hitos>
+			<hito num = "1">
+				<nombre>Villanueva de Oscos</nombre>
+				<descripcion>La historia de Villanueva sigue los mismos caminos que la de sus concejos vecinos de San Martín y Santa Eulalia, durante las etapas prehistóricas, la edad antigua y la edad media hasta 1137, fecha en la que pasa a ser coto abadengo.
+Los primeros restos hallados que demuestran la presencia humana en el concejo pertenecen a la etapa neolítica, como lo demuestran los campos tumulares descubiertos en las estribaciones de la sierra de Pumarín, destacando de entre todos ellos el de A Chaira das Grallas.</descripcion>
+				<coordenadas>
+					<longitud>-6.98626</longitud>
+					<latitud>43.31135</latitud>
+					<altitud>658</altitud>
+				</coordenadas>
+				<distanciahitoanterior unidad = "km">25</distanciahitoanterior>
+				<tiempohitoanterior dias = "0" horas = "0" minutos = "31"/>
+				<galeriafotos>
+					<foto num = "1">https://i.pinimg.com/originals/07/71/14/0771143b3b60cdcc201f736ca2be96e1.jpg</foto>
+					<foto num = "2">https://www.turismoasturias.es/documents/11022/35622/VillanuevaOscos3.jpg/e78eaa27-c994-4fb2-8d84-e10d2f723af9?t=1389217391693capilla.jpg</foto>
+				</galeriafotos>
+			</hito>
+			<hito num = "2">
+				<nombre>Pola de Allande</nombre>
+				<descripcion>La más antigua presencia humana en tierras allandesas data del neolítico, tiempos de los que son testigos la arquitectura megalítica presente en el concejo, donde destaca el dolmen de la Filadoira.
+El periodo arcaico mejor representado es el de la cultura castrense, muy extendida por todo el concejo, de la que dan fe castros como el de San L.luis, datado en la época romana.
+Asimismo goza también de gran relevancia la presencia romana, especialmente visible en las explotaciones auríferas de la zona, siendo las más destacadas aquellas conocidas como: "La Fana la Freita", "La Cárcava" y "A Cova de Xan Rata" (esta última es una de las pocas explotaciones horizontales en todo el norte de España).</descripcion>
+				<coordenadas>
+					<longitud>-6.617</longitud>
+					<latitud>43.267</latitud>
+					<altitud>524</altitud>
+				</coordenadas>
+				<distanciahitoanterior unidad = "km">72</distanciahitoanterior>
+				<tiempohitoanterior dias = "0" horas = "1" minutos = "26"/>
+				<galeriafotos>
+					<foto num = "1">https://s0.wklcdn.com/image_12/372246/23098662/14834136Master.jpg</foto>
+				</galeriafotos>
+			</hito>
+			<hito num = "3">
+				<nombre>Tineo</nombre>
+				<descripcion>Tineo (en asturiano Tinéu) es un concejo de la comunidad autónoma del Principado de Asturias, en el norte de España; también es una parroquia y una villa de dicho concejo. El concejo de sitúa en el occidente de Asturias; está dividido en 44 parroquias que comprenden un total de 340 núcleos de población, aunque la gran
+mayoría no supera los 80 habitantes. La población total del concejo es de 9.904 habitantes.1​La villa de Tineo, a 652 m de altitud y con 36822​ habitantes, es la capital administrativa del concejo.</descripcion>
+				<coordenadas>
+					<longitud>-6.4730308</longitud>
+					<latitud>43.3410654</latitud>
+					<altitud>652</altitud>
+				</coordenadas>
+				<distanciahitoanterior unidad = "km">36</distanciahitoanterior>
+				<tiempohitoanterior dias = "0" horas = "0" minutos = "36"/>
+				<galeriafotos>
+					<foto num = "1">https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Tineo.JPG/1200px-Tineo.JPG</foto>
+				</galeriafotos>
+			</hito>
+			<hito num = "4">
+				<nombre>Grado</nombre>
+				<descripcion>Grado es tierra de cruce de caminos. En este concejo confluyen y divergen dos de los itinerarios culturales y vías de comunicación más importantes de la historia europea: el Camino de Santiago Primitivo y el Camín Real de la Mesa, antigua calzada romana. Su naturaleza de encrucijada le ha conferido al territorio y a sus gentes un carácter abierto, cosmopolita, y hospitalario. Si a esta circunstancia unimos la fertilidad de unas vegas alimentadas por las aguas del Cubia y el Nalón, obtendremos como resultado no sólo una huerta de primera calidad sino una cultura comercial que se traduce en un importante mercado dominical, un comercio local muy profesional, unos tocinillos que son verdaderamente celestiales y otras ‘llambionadas' de factura totalmente ‘moscona'.</descripcion>
+				<coordenadas>
+					<longitud>-6.074091</longitud>
+					<latitud>43.387019</latitud>
+					<altitud>73</altitud>
+				</coordenadas>
+				<distanciahitoanterior unidad = "km">47</distanciahitoanterior>
+				<tiempohitoanterior dias = "0" horas = "0" minutos = "44"></tiempohitoanterior>
+				<galeriafotos>
+					<foto num = "1">http://www.cronistasoficiales.com/wp-content/uploads/2016/04/grado02.jpg</foto>
+				</galeriafotos>
+			</hito>
+			<hito num = "5">
+				<nombre>Oviedo</nombre>
+				<descripcion>Oviedo (en asturiano Uviéu) es un concejo y ciudad española, capital del Principado de Asturias. Su origen se remonta a la Alta Edad Media —siglo VIII—, o incluso a antes, denominada en origen Ovetum. Oviedo es un concejo (el equivalente asturiano al municipio), además de una parroquia de dicho concejo, de la que forma parte, a su vez, la capital y ciudad homónima.
+Es el centro geográfico, universitario, religioso y administrativo del Principado, sede de la Junta General del Principado de Asturias, de las instituciones oficiales del Principado de Asturias, de la Universidad de Oviedo, del Museo de Bellas Artes de Asturias, de los Premios Princesa de Asturias así como de la archidiócesis de Oviedo. Es reconocida como una de las ciudades con mayor calidad de vida de Europa según la Comisión Europea.</descripcion>
+				<coordenadas>
+					<longitud>-5.8733862</longitud>
+					<latitud>43.387019</latitud>
+					<altitud>232</altitud>
+				</coordenadas>
+				<distanciahitoanterior unidad = "km">24</distanciahitoanterior>
+				<galeriafotos>
+					<foto num = "1">https://www.elcaminoconcorreos.com/admin/files/articulos/216/como-llegar-oviedo-para-empezar-el-camino-primitivo.jpg</foto>
+				</galeriafotos>
+				<galeriavideos>
+					<video num = "1" value = "https://vimeo.com/12898218"></video>
+				</galeriavideos>
+			</hito>
+		</hitos>
+	</ruta>
+	<ruta nombre = "Campo de Caso - Covadonga">
+		<tipo>Paisajistica</tipo>
+		<dificultad>Media</dificultad>
+		<fecha>
+			<inicio dia = "5" mes = "8" ano = "2019"/>
+			<hora hora = "9" minuto = "45" segundo = "0"/>
+		</fecha>
+		<tiempoduracion dias = "0" horas = "6" mins = "30"/>
+		<agencia>Rutas Asturias</agencia>
+		<descripcion>Ruta en autocaravana desde Campo de Caso a Covadonga</descripcion>
+		<personasadecuadas>Sin Limite</personasadecuadas>
+		<lugarinicio>Campo de Caso</lugarinicio>
+		<direccioninicio>Plaza Ayuntamiento</direccioninicio>
+		<referencias>
+			<referencia num = "1" value = "https://wikipedia.com/"/>
+			<referencia num = "2" value = "https://wikipedia.com/"/>
+			<referencia num = "3" value = "https://wikipedia.com/"/>
+		</referencias>
+		<recomendacion>7</recomendacion>
+		<coordenadas>
+			<longitud>-5.3489</longitud>
+			<latitud>43.18147</latitud>
+			<altitud>670</altitud>
+		</coordenadas>
+		<hitos>
+			<hito num = "1">
+				<nombre>Infiesto</nombre>
+				<descripcion>Infiesto, en asturiano L'Infiestu, es una villa del concejo de Piloña y capital del mismo. Pertenece a la parroquia de San Antonio y su población es de 2.139 habitantes (2008).
+Piloña es un vasto territorio que se extiende sobre una superficie de unos 282 kilómetros cuadrados aproximadamente, ubicado en el Oriente del Principado de Asturias, a 47 kilómetros de la ciudad de Oviedo.
+Quizás lo que mejor defina al núcleo de Infiesto y al conjunto del concejo del que forma parte sean los maravillosos paisajes y el entorno natural de que disfrutan sus gentes, destacando la Reserva Natural de Piloña, con lugares como la Sierra del Infierno.
+Su patrimonio histórico, que cuenta con valiosos elementos como la iglesia parroquial de San Antonio, la iglesia de San Juan de Berbio y la de San Pedro de Beloncio, también es de gran interés.</descripcion>
+				<coordenadas>
+					<longitud>-5.3641667</longitud>
+					<latitud>43.34833</latitud>
+					<altitud>150</altitud>
+				</coordenadas>
+				<distanciahitoanterior unidad = "km">35</distanciahitoanterior>
+				<tiempohitoanterior dias = "0" horas = "1" minutos = "0"/>
+				<galeriafotos>
+					<foto num = "1">https://c2.staticflickr.com/4/3528/3787481215_b3d7af26da_b.jpg</foto>
+					<foto num = "2">http://fotos.elcomercio.es/201309/img04421.jpg</foto>
+				</galeriafotos>
+			</hito>
+			<hito num = "2">
+				<nombre>Cangas de Onis</nombre>
+				<descripcion>Cangas de Onís fue capital del Reino de Asturias hasta el año 774. En esta población se estableció el rey Don Pelayo, y desde aquí emprendió con sus gentes acciones sobre los territorios del norte de España, como único foco de resistencia al poder musulmán, una vez desaparecido el Reino visigodo. En este término municipal tuvo lugar en el año 722 la batalla de Covadonga, donde Don Pelayo venció a las fuerzas musulmanas y consolidó un poder y prestigio que le permitió permanecer independiente y fundar el primer reino cristiano posterior a la derrota de los visigodos en la batalla de Guadalete.</descripcion>
+				<coordenadas>
+					<longitud>-5.13023</longitud>
+					<latitud>43.35079</latitud>
+					<altitud>87</altitud>
+				</coordenadas>
+				<distanciahitoanterior unidad = "km">27</distanciahitoanterior>
+				<tiempohitoanterior dias = "0" horas = "0" minutos = "26"/>
+				<galeriafotos>
+					<foto num = "1">https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Puente_romano_Cangas.JPG/1200px-Puente_romano_Cangas.JPG</foto>
+				</galeriafotos>
+			</hito>
+			<hito num = "3">
+				<nombre>Covadonga</nombre>
+				<descripcion>Covadonga (cooficialmente, en asturiano, Cuadonga) es una parroquia del concejo de Cangas de Onís en el Principado de Asturias, España, así como su única población, con la categoría de lugar, de dicha parroquia.
+En esta parroquia se encuentra el Santuario del Real Sitio de Covadonga, con la Santa Cueva y la Basílica de Covadonga, formando parte del Parque Nacional de los Picos de Europa. Muy cerca, ya fuera de la parroquia, se encuentran también los conocidos como Lagos de Covadonga.</descripcion>
+				<coordenadas>
+					<longitud>-5.05142</longitud>
+					<latitud>43.30815</latitud>
+					<altitud>263</altitud>
+				</coordenadas>
+				<distanciahitoanterior unidad = "km">9</distanciahitoanterior>
+				<tiempohitoanterior dias = "0" horas = "0" minutos = "13"/>
+				<galeriafotos>
+					<foto num = "1">http://4.bp.blogspot.com/-mC8VPbMXIFc/UDVCrKRJLBI/AAAAAAAAEfg/nupkZ-gd9BA/s1600/DSC_0508.JPG</foto>
+				</galeriafotos>
+			</hito>
+		</hitos>
+	</ruta>
+	<ruta nombre = "Aviles - Tapia de Casariego">
+		<tipo>Maritima</tipo>
+		<dificultad>Facil</dificultad>
+		<fecha>
+			<inicio dia = "13" mes = "2" ano = "2020"/>
+			<hora hora = "10" minuto = "15" segundo = "30"/>
+		</fecha>
+		<tiempoduracion dias = "0" horas = "8" mins = "30"/>
+		<agencia>Rutas Autocaravanas Asturias</agencia>
+		<descripcion>Ruta en autocaravana desde Aviles hasta Tapia de Casariego</descripcion>
+		<personasadecuadas>Sin Limite</personasadecuadas>
+		<lugarinicio>Aviles</lugarinicio>
+		<direccioninicio>Zona de la ria</direccioninicio>
+		<referencias>
+			<referencia num = "1" value = "https://wikipedia.com/"/>
+			<referencia num = "2" value = "https://wikipedia.com/"/>
+			<referencia num = "3" value = "https://wikipedia.com/"/>
+		</referencias>
+		<recomendacion>7</recomendacion>
+		<coordenadas>
+			<longitud>-5.92112</longitud>
+			<latitud>43.55852</latitud>
+			<altitud>139</altitud>
+		</coordenadas>
+		<hitos>
+			<hito num = "1">
+				<nombre>Cudillero</nombre>
+				<descripcion>Cudillero es un concejo, parroquia y localidad de la comunidad autónoma del Principado de Asturias, España. Limita al oeste con Valdés, al sur con Salas y Pravia y al este con Muros del Nalón y Pravia de nuevo. El concejo tiene una población de 5183 habitantes (INE 2017), sus núcleos principales son: la villa de Cudillero (Cuideiru en asturiano), que es su capital, Villademar (Villamar), La Atalaya (La Telaya) y Aroncés.
+Relevante puerto pesquero, durante los meses de verano es un importante atractivo turístico. Entre su patrimonio histórico se encuentra la Quinta de Selgas, lujoso palacio del siglo XIX con amplios jardines y obras de Goya. Diferentes medios de comunicación suelen considerar a Cudillero como uno de los pueblos más bonitos de España.</descripcion>
+				<coordenadas>
+					<longitud>-6.14902</longitud>
+					<latitud>43.55899</latitud>
+					<altitud>30</altitud>
+				</coordenadas>
+				<distanciahitoanterior unidad = "km">26</distanciahitoanterior>
+				<tiempohitoanterior dias = "0" horas = "0" minutos = "28"/>
+				<galeriafotos>
+					<foto num = "1">http://static.thousandwonders.net/Cudillero.original.31512.jpg</foto>
+					<foto num = "2">https://grupochapin.com/wp-content/uploads/2016/11/20161111-1.jpg</foto>
+				</galeriafotos>
+			</hito>
+			<hito num = "2">
+				<nombre>Luarca</nombre>
+				<descripcion>Luarca (en asturiano y oficialmente Ḷḷuarca) es una parroquia española del concejo de Valdés, en el Principado de Asturias y una villa de dicha parroquia. La parroquia tiene una población de 5292 habitantes (INE 2009) repartidos en 5,84 km² y casi íntegramente en la villa homónima, excepto 940 habitantes que pueblan los lugares de la parroquia. En esta parroquia se encuentra la villa de Luarca, capital del concejo de Valdés. Está situada a 92 km de Oviedo, capital del Principado. Su templo parroquial está dedicado a Santa Eulalia.
+Es una localidad de paso del Camino de Santiago y cuenta con albergue de peregrinos, situado en Almuña, a unos dos kilómetros de la villa de Luarca. Entre los lugares más visitados destacan el faro y el palacio del marqués de Ferrera.</descripcion>
+				<coordenadas>
+					<longitud>-6.53648</longitud>
+					<latitud>43.54192</latitud>
+					<altitud>40</altitud>
+				</coordenadas>
+				<distanciahitoanterior unidad = "km">39</distanciahitoanterior>
+				<tiempohitoanterior dias = "0" horas = "0" minutos = "27"/>
+				<galeriafotos>
+					<foto num = "1">https://www.callejeandoporelmundo.com/wp-content/uploads/2014/02/luarca-asturias-nocturno-portada.jpg</foto>
+				</galeriafotos>
+			</hito>
+			<hito num = "3">
+				<nombre>Tapia de Casariego</nombre>
+				<descripcion>Tapia de Casariego (oficialmente, Tapia) es un concejo de la costa occidental del Principado de Asturias, España. Limita al norte con el mar Cantábrico, al este con el concejo de El Franco, y al sur y al oeste con el de Castropol. Tiene una extensión de 65,99 km² y su población actual es de 3.851 habitantes (2017). Cuenta con una buena infraestructura comunicativa, atraviesan el municipio la autopista A-8, la carretera nacional N-634, y la línea de vía estrecha ferrocarril Ferrol - Gijón.</descripcion>
+				<coordenadas>
+					<longitud>-6.94262</longitud>
+					<latitud>43.56924</latitud>
+					<altitud>20</altitud>
+				</coordenadas>
+				<distanciahitoanterior unidad = "km">37</distanciahitoanterior>
+				<tiempohitoanterior dias = "0" horas = "0" minutos = "26"/>
+				<galeriafotos>
+					<foto num = "1">http://www.enjoyasturias.es/wp-content/uploads/2013/05/P9150132-e1409140032960.jpg</foto>
+				</galeriafotos>
+			</hito>
+		</hitos>
+	</ruta>
+</rutas>

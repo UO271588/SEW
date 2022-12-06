@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title> UO271588-Ejercicio7 </title>
+    <meta name="author" content="Eloy Alfredo Schmidt Rodríguez" />
+    <meta name="description" content="Documento que contiene todo tipo de elementos html (h1,h2,h3,p,tablas, etc)" />
+    <meta name="keywords" content="Documento Elementos Html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./Ejercicio7.js"></script>
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+</head>
+
+<body>
+    <section>
+        <h1>RUST</h1>
+        <h2> ¿Que es Rust? </h2>
+        <p> Rust es un lenguaje de programación compilado, de propósito general y multiparadigma que está siendo
+            desarrollado por Fundación Rust. Es un lenguaje de programación multiparadigmático que soporta programación
+            funcional pura, por procedimientos, imperativa y orientada a objetos. </p>
+        <img src="./multimedia/rustlogo.png" alt="Icono de rust" />
+        <h2> ¿Por que usar Rust? </h2>
+        <h3> Rendimiento</h3>
+        <p> Rust es rápido como el rayo y eficiente con la memoria: sin runtime ni colector de basura, puede sustentar
+            servicios de rendimiento crítico, ejecutarse en dispositivos embebidos, e integrarse con otros lenguajes
+            fácilmente.</p>
+        <h3> Fiabilidad</h3>
+        <p> El rico sistema de tipos de Rust y su modelo de propiedad (ownership) garantizan seguridad de memoria y
+            seguridad de hilos, y te permiten eliminar muchas clases de bugs en tiempo de compilación.</p>
+        <h3> Productividad</h3>
+        <p> Rust tiene una documentación genial, un compilador accesible con mensajes de error útiles, y herramientas de
+            primera: gestor de paquetes y de proyecto integrado, soporte avanzado multi-editor con autocompletado e
+            inspecciones de tipos, auto-formateador, etc.</p>
+        <h2>Tabla para sumar filas y columnas</h2>
+        <table>
+            <tr>
+                <th scope="col" id="caracteristica">Col/Fila 0</th>
+                <th scope="col" id="go"> Col 1 </th>
+                <th scope="col" id="rust"> Col 2 </th>
+                <th scope="col" id="rust"> Col 3 </th>
+            </tr>
+            <tr>
+                <th scope="row" id="desempeño" headers="caracteristica"> Fila 1 </th>
+                <td headers="go desempeño"> 6 </td>
+                <td headers="rust desempeño"> 32</td>
+                <td headers="rust desempeño"> 25</td>
+            </tr>
+            <tr>
+                <th scope="row" id="multihilo" headers="caracteristica"> Fila 2 </th>
+                <td headers="go multihilo"> 45 </td>
+                <td headers="rust multihilo"> 47</td>
+                <td headers="rust multihilo"> 39</td>
+            </tr>
+            <tr>
+                <th scope="row" id="memoria" headers="caracteristica"> Fila 3 </th>
+                <td scope="go memoria">10</td>
+                <td scope="rust memoria"> 30</td>
+                <td headers="rust multihilo"> 21</td>
+            </tr>
+            <tr>
+                <th scope="row" id="escalabilidad" headers="caracteristica"> Fila 4 </th>
+                <td scope="go escalabilidad"> 87</td>
+                <td scope="rust escalabilidad"> 42</td>
+                <td headers="rust multihilo"> 65</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h1>Modificaciones Html</h1>
+        <input name="ocultarimagen" type="button" value="Ocultar imagen" onclick="ej.ocultarImagen()">
+        <input name="mostrarimagen" type="button" value="Mostrar imagen" onclick="ej.mostrarImagen()">
+        <input name="modificarparrafofinal" type="button" value="Añadir texto al final del parrafo" onclick="ej.añadirTextoFinal()">
+        <input name="modificarparrafoinicio" type="button" value="Añadir texto al inicio del parrafo" onclick="ej.añadirTextoInicio()">
+        <input name="añadirparrafoantes" type="button" value="Añadir parrafo Antes" onclick="ej.añadirParrafoAntes()">
+        <input name="añadirparrafodespues" type="button" value="Añadir parrafo Despues" onclick="ej.añadirParrafoDespues()">
+        <input name="eliminarparrafo" type="button" value="Eliminar parrafo" onclick="ej.eliminarParrafo()">
+        <input name="recorrido" type="button" value="Sacar recorrido HTML" onclick="ej.recorridoHtml()">
+        <input name="sumarFilas" type="button" value="Sumar filas" onclick="ej.sumarFilas()">
+        <input name="sumarColumnas" type="button" value="Sumar columnas" onclick="ej.sumarColumnas()">
+    </section>
+</body>
+
+</html>

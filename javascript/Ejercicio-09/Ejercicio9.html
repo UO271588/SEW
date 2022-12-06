@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title> UO271588-Ejercicio9 </title>
+        <meta name="author" content="Eloy Alfredo Schmidt Rodríguez"/>
+        <meta name="description" content="Documento que contiene todo tipo de elementos html (h1,h2,h3,p,tablas, etc)"/>
+        <meta name="keywords" content="RUST, rust, lenguaje, programacion"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="./Ejercicio9.js"></script>
+        <link rel="stylesheet" type="text/css" href="Ejercicio9.css"/>
+    </head>
+    <body>
+        <!-- Seccion que contiene las ciudades de las que se quiere obtener el tiempo atmosferico-->      
+        <section>
+            <h1>Obtencion de datos meteorologicos en formato JSON</h1>
+            <input type="button" value="Oviedo" onclick="weather.getWeather('Oviedo')">
+            <input type="button" value="Gijón" onclick="weather.getWeather('Gijón')">
+            <input type="button" value="Avilés" onclick="weather.getWeather('Avilés')">
+            <input type="button" value="Cangas de Onís" onclick="weather.getWeather('Cangas de Onís')">
+            <input type="button" value="Ribadesella" onclick="weather.getWeather('Ribadesella')">
+        </section>
+        <!-- Seccion que contendrá el resultado de la consulta para la ciudad seleccionada o el error correspondiente-->
+        <section>
+            <!-- Modificada con el JS correspondiente-->
+        </section>
+    </body>
+</html>

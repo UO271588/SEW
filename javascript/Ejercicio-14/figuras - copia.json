@@ -1,0 +1,37 @@
+{
+  "type": "ElementsCollection",
+  "elements": [
+    {
+      "type": "Element",
+      "geometry": {
+        "type": "Cuadrado",
+        "coordinates": [30,60,75,75],
+		"color": [255,0,0,1]
+      }
+    },
+    {
+      "type": "Element",
+      "geometry": {
+        "type": "Circulo",
+        "coordinates": [250,30,20,0,2],
+		"color": [255,0,0,1]
+      }
+    },
+    {
+      "type": "Element",
+      "geometry": {
+        "type": "Triangulo",
+        "coordinates": [20,60,70,30,115,60],
+		"color": [0,255,255,1]
+      }
+    },
+	{
+      "type": "Element",
+      "geometry": {
+        "type": "Cuadrado",
+        "coordinates": [0,135,500,200],
+		"color": [0,255,0,1]
+      }
+    }
+  ]
+}
