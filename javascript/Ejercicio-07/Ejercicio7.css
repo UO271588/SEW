@@ -16,3 +16,8 @@ pre{
 img{
     width: 50vw;
 }
+
+/* Especificidad=1  a=0 b=0 c=1*/
+input{
+    margin: 2vw;
+}
