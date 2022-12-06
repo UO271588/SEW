@@ -11,3 +11,8 @@ section{
 pre{
     overflow: auto;
 }
+
+/* Especificidad=1  a=0 b=0 c=1*/
+img{
+    width: 50vw;
+}
