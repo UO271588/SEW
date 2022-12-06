@@ -3,8 +3,6 @@ section{
     margin: 4vh 4vw;
     padding: 2vh 2vw;
     border: 1px solid black;
-    background-color: rgb(255, 255, 255);
-    color: black;
 }
 
 /* Especificidad=1  a=0 b=0 c=1*/
