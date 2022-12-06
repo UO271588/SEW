@@ -12,7 +12,7 @@ class Weather {
 
     constructor() {
         this.api_key = "e4acce415326fa1d006a844350e739ae";
-        this.url_api = "http://api.openweathermap.org/data/2.5/weather?q=";
+        this.url_api = "https://api.openweathermap.org/data/2.5/weather?q=";
         this.unidades = "&units=metric";
         this.tipo = "&mode=xml";
         this.idioma = "&lang=es";
