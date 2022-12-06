@@ -1,8 +1,10 @@
+/* Especificidad=1  a=0 b=0 c=1*/
 body{
     display: flex;
     flex-direction: column;
 }
 
+/* Especificidad=11  a=0 b=1 c=1*/
 section:nth-child(1){
     display:grid;
     grid-template-columns: repeat(5, 1fr);
@@ -10,6 +12,14 @@ section:nth-child(1){
     gap: 2vw;
 }
 
+/* Especificidad=11  a=0 b=1 c=1*/
+section:nth-child(2){
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Especificidad=12  a=0 b=1 c=2*/
 section:nth-child(1) > h1{
     text-align: center;
     grid-column-start: 1;
@@ -18,16 +28,12 @@ section:nth-child(1) > h1{
     grid-row-end:2;
 }
 
+/* Especificidad=12  a=0 b=1 c=2*/
 section:nth-child(1)>input{
     padding: 1vw;
 }
 
-section:nth-child(2){
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-
+/* Especificidad=12  a=0 b=1 c=2*/
 section:nth-child(2) > img{
     width: calc(2em + 4vw);
 }

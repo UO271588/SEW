@@ -1,3 +1,5 @@
+/* Especificidad=1  a=0 b=0 c=1*/
 h1{
+	background-color: white;
 	color: blue;
 }

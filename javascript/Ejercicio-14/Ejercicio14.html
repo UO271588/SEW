@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8" />
 	<title>Ejercicio14</title>
-	<meta name="viewport" content="initial-scale=1.0"/>
+	<meta name="author" content="Eloy Alfredo Schmidt Rodríguez" />
+	<meta name="description" content="Ejercicio14" />
+	<meta name="keywords" content="2d dibujo canvas file fullscreen" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="stylesheet" href="Ejercicio14.css"/>
 	<script src = "Ejercicio14.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -12,9 +15,9 @@
 	<section>
 		<h1>Mostrar Dibujos en 2D con JSON a pantalla completa</h1>
 		<label for="pintar2D">Archivo:</label>
-		<input type = "file" name = "pintar2D" id = "pintar2D" onchange= "pintar.cargarArchivo()"/>
+		<input type = "file" name = "pintar2D" id = "pintar2D" onchange= "pintar.cargarArchivo()">
 		<label for="pantallaCompleta">Pantalla completa:</label>
-		<input type = "button" name = "pantallaCompleta" id = "pantallaCompleta" value = "Mostrar en pantalla completa" onclick = "pintar.pantallacompleta()"/>
+		<input type = "button" name = "pantallaCompleta" id = "pantallaCompleta" value = "Mostrar en pantalla completa" onclick = "pintar.pantallacompleta()">
 		<canvas></canvas>
 	</section>
 </body>

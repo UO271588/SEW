@@ -1,14 +1,17 @@
+/* Especificidad=1  a=0 b=0 c=1*/
 body{
     display: flex;
     flex-direction: column;
 }
 
+/* Especificidad=1  a=0 b=0 c=1*/
 section{
     display:flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* Especificidad=2  a=0 b=0 c=2*/
 section > input{
     padding: 1vw;
 }
