@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<title> UO271588-Ejercicio5-JS</title>
+	<meta name="author" content="Eloy Alfredo Schmidt Rodríguez"/>
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+	<link rel="stylesheet" href="CalculadoraRPN.css" />
+	<script src="CalculadoraRPN.js"></script>
+</head>
+
+<body>
+	<section>
+		<h1>Calculadora RPN</h1>
+		<label for="pila">v.1.0.0</label>
+		<label for="input">RPN</label>
+		<textarea id="pila" name="pila" readonly></textarea>
+
+		<input id="input" name="input" type="text" value="0" readonly>
+
+		<input type="button" name="borrar anterior" value="DEL" onclick="calc.delete()" />
+		<input type="button" name="cambio grados" value="DEG" onclick="calc.grados()" />
+
+		<input type="button" name="seno" value="sin" onclick="calc.sin()" />
+		<input type="button" name="coseno" value="cos" onclick="calc.cos()" />
+		<input type="button" name="tangente" value="tan" onclick="calc.tan()" />
+		<input type="button" name="arcoseno" value="asin" onclick="calc.asin()" />
+		<input type="button" name="arcocoseno" value="acos" onclick="calc.acos()" />
+
+		<input type="button" name="10 a la x" value=" 10ˣ " onclick="calc.exponente()" />
+		<input type="button" name="logaritmo en base 10" value="log" onclick="calc.log()" />
+		<input type="button" name="e" value=" e " onclick="calc.e()" />
+		<input type="button" name="arcotangente" value="atan" onclick="calc.atan()" />
+		<input type="button" name="dividir" value=" / " onclick="calc.division()" />
+
+		<input type="button" name="logaritmo neperiano" value="ln" onclick="calc.ln()" />
+		<input type="button" name="7" value=" 7 " onclick="calc.numero(7)" />
+		<input type="button" name="8" value=" 8 " onclick="calc.numero(8)" />
+		<input type="button" name="9" value=" 9 " onclick="calc.numero(9)" />
+		<input type="button" name="multiplicar" value=" x " onclick="calc.multiplicacion()" />
+
+		<input type="button" name="potencia" value=" ^ " onclick="calc.potencia()" />
+		<input type="button" name="4" value=" 4 " onclick="calc.numero(4)" />
+		<input type="button" name="5" value=" 5 " onclick="calc.numero(5)" />
+		<input type="button" name="6" value=" 6 " onclick="calc.numero(6)" />
+		<input type="button" name="restar" value=" - " onclick="calc.resta()" />
+
+		<input type="button" name="elevar al cuadrado" value="x2" onclick="calc.cuadrado()" />
+		<input type="button" name="1" value=" 1 " onclick="calc.numero(1)" />
+		<input type="button" name="2" value=" 2 " onclick="calc.numero(2)" />
+		<input type="button" name="3" value=" 3 " onclick="calc.numero(3)" />
+		<input type="button" name="sumar" value=" + " onclick="calc.suma()" />
+
+		<input type="button" name="raiz cuadrada" value=" √ " onclick="calc.raiz()" />
+		<input type="button" name="limpiar pantalla" value=" C " onclick="calc.borrar()" />
+		<input type="button" name="0" value=" 0 " onclick="calc.numero(0)" />
+		<input type="button" name="punto decimal" value=" . " onclick="calc.punto()" />
+		<input type="button" name="enter" value="Enter" onclick="calc.enter()" />
+	</section>
+    <section>
+        <h2>Ayuda Online</h2>
+        <a href="https://es.wikipedia.org/wiki/Notación_polaca_inversa">CALCULADORA RPN</a>
+    </section>
+</body>
+</html>
