@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta charset="UTF-8">
+	<meta name="author" content="Eloy Alfredo Schmidt Rodríguez">
+    <meta name="description" content="Base de datos universidades">
+    <meta name="keywords" content="Universidad, alumnos, asignaturas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Ejercicio7.css">
+    <title>UO271588-Ejercicio7-PHP</title>
+</head>
+<body>
+	<h1>Ejercicio 7 - Ejercicio Propio</h1>
+	<section>
+		<h2>Menu de Gestión</h2>
+		
+		
+		<form action="#" method="post" name="menuBBDD">
+		
+					<section>
+						<h3> Base de Datos </h3>
+						<input type="submit" name="crearBase" value="Crear BBDD">
+						<input type="submit" name="crearTabla" value="Crear Tablas">
+						<input type="submit" name="cargardatosarchivo" value="Añadir Datos">
+					</section>
+				<section>
+						<h3> Asignatura </h3>
+						<label for="buscaracronimo">Acronimo Asignatura: </label>
+						<input type="text" id="buscaracronimo" name="buscaracronimo" value="OEM">
+						<input type="submit" name="buscardatosacronimo" value="Buscar">
+						
+					</section>
+					<section>
+						<h3> Alumno </h3>
+						<label for="buscaridentificador">Identificador Alumno (UO): </label>
+						<input type="text" id="buscaridentificador" name="buscaridentificador" value="uo271588">
+						<input type="submit" name="buscardatosidentificador" value="Buscar Identificador">
+					</section>
+					<section>
+						<h3> Universidad </h3>
+						<label for="buscaruniversidad">Acronimo Universidad: </label>
+						<input type="text" id="buscaruniversidad" name="buscaruniversidad" value="UNIOVI">
+						<input type="submit" name="buscardatosuniversidad" value="Buscar Universidad">
+					</section>
+				<section>
+				<h3>Datos UNIOVI</h3>
+				<section>
+				<h4> Asignaturas </h4>
+				<table>
+					<tbody><tr>
+						<th>ACRONIMO
+						</th><th>NOMBRE</th>
+						<th>CURSO</th>
+						<th>CREDITOS</th>
+					</tr>
+							<tr>
+								<td>SEW</td>
+								<td>Software y Estandares para la Web
+</td>
+								<td>3</td>
+								<td>6</td>
+							</tr></tbody></table></section><input type="submit" name="ocultar" value="Ocultar Inf."></section></form>	</section>
+
+</body></html>

@@ -1,0 +1,88 @@
+/*Especificidad: 1  a=0 b=0 c=1*/
+section {
+	display: flex;
+	flex-direction: column;
+	padding: 2vh 2vw;
+	margin: 1vh 0vw;
+}
+
+/*Especificidad: 1  a=0 b=0 c=1*/
+label {
+	margin: auto;
+}
+
+/*Especificidad: 1  a=0 b=0 c=1*/
+p {
+	margin: 1vh auto;
+}
+
+/*Especificidad: 1  a=0 b=0 c=1*/
+input {
+	margin: 1vh 0vw;
+}
+
+/*Especificidad: 3  a=0 b=0 c=3*/
+section>form>section {
+	border: black 1px solid;
+	display: flex;
+	flex-direction: column;
+}
+
+@media(min-width: 630px) {
+
+	/*Especificidad: 3  a=0 b=0 c=3*/
+	section > form > section {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2vw;
+	}
+
+	/*Especificidad: 4  a=0 b=0 c=4*/
+	section > form > section > h3 {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		margin: 0px;
+	}
+}
+
+/*Especificidad: 4  a=0 b=0 c=4*/
+section>form>section>section {
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: auto;
+}
+
+/*Especificidad: 5  a=0 b=0 c=5*/
+section>form>section>section>h4 {
+	margin: 1vh auto;
+}
+
+/*Especificidad: 5  a=0 b=0 c=5*/
+section>form>section>section>table {
+	margin: auto;
+}
+
+/*Especificidad: 8  a=0 b=0 c=8*/
+section>form>section>section>table>tbody>tr>th {
+	padding: 1vh 1vw;
+	border: black 1px solid;
+}
+
+/*Especificidad: 11  a=0 b=1 c=1*/
+input[type='submit'] {
+	padding: 1vh 1vw;
+}
+
+@media(min-width: 630px) {
+
+	/*Especificidad: 13  a=0 b=1 c=3*/
+	section>form>section:nth-child(5) {
+		border: black 1px solid;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 0vw;
+	}
+}
