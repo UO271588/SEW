@@ -9,6 +9,13 @@ body{
 
 }
 
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
 section{
     display: grid;
     grid-template-columns: repeat(5,1fr);
